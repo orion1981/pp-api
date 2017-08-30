@@ -5,3 +5,19 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+kitchen = Location.create(
+          place: "people's pops Kitchen",
+          capacity: 5000,
+          )
+
+smorgasburg = Location.create(
+          place: "Smorgasburg",
+          capacity:  640,
+          )
+
+high_line = Location.create(
+          place: "High Line",
+          capacity: 1000,
+          )
