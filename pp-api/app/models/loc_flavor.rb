@@ -1,0 +1,2 @@
+class LocFlavor < ApplicationRecord
+end
