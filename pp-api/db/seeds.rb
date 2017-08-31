@@ -9,15 +9,21 @@
 
 kitchen = Location.create(
           place: "people's pops Kitchen",
-          capacity: 5000,
+          pop_capacity: 5000,
+          syrup_capacity: 80,
+          water_capacity: 300
           )
 
 smorgasburg = Location.create(
           place: "Smorgasburg",
-          capacity:  640,
+          pop_capacity: 640,
+          syrup_capacity: 24,
+          water_capacity: 100
           )
 
 high_line = Location.create(
           place: "High Line",
-          capacity: 1000,
+          pop_capacity: 1000,
+          syrup_capacity: 24,
+          water_capacity: 100
           )
